@@ -67,10 +67,19 @@ const now = new Date().toISOString();
 // Download and parse
 // ---------------------------------------------------------------------------
 
+// data.gov.au can be slow to answer, so a failed download is tried again twice.
 async function download(path: string): Promise<Row[]> {
-  const response = await fetch(`${RESOURCE_URL}/${path}`);
-  if (!response.ok) throw new Error(`Download failed (${response.status}): ${path}`);
-  return parseCsv(await response.text());
+  for (let attempt = 1; ; attempt++) {
+    try {
+      const response = await fetch(`${RESOURCE_URL}/${path}`);
+      if (!response.ok) throw new Error(`Download failed (${response.status}): ${path}`);
+      return parseCsv(await response.text());
+    } catch (error) {
+      if (attempt === 3) throw error;
+      console.log(`Download failed (${(error as Error).message}), trying again: ${path}`);
+      await new Promise((resolve) => setTimeout(resolve, 5000 * attempt));
+    }
+  }
 }
 
 // CRICOS files are plain RFC 4180 CSV with a byte order mark and blank rows at
@@ -172,7 +181,10 @@ function isHigherEd(course: Row): boolean {
 
 // CRICOS only says whether a provider is "Government" or "Private", so the
 // type is worked out from its name and the courses it offers. Checked against
-// the register: this finds the 42 Australian universities, RMIT included.
+// the register (September 2026): this finds every Australian university, RMIT
+// and the merged Adelaide University included, as 44 registrations. Victoria
+// University and Southern Queensland each hold a second one for campuses in
+// other states.
 function providerType(institution: Row, courses: Row[]): string | null {
   if (courses.length === 0) return null;
   const government = institution["Institution Type"] === "Government";

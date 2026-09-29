@@ -32,13 +32,13 @@ Committed. The website, the email sign-in for staff and the database tables are 
 
 ### Step 2: CRICOS catalogue (almost done)
 
-The import code is finished and the dry run works: 1,543 institutions, 3,901 campuses, 26,063 courses.
+The catalogue is in the database: 1,543 institutions, 3,901 campuses, 26,063 courses. On 29 September we moved to a new Supabase project, "Studies and Awards AI", because the first one could not be found in your Supabase account.
 
 To finish:
 
-- [ ] You add `SUPABASE_SECRET_KEY` to `.env.local`.
-- [ ] I run the import and check the numbers in the database.
-- [ ] I check the 44 institutions marked as universities (the code expected 42).
+- [x] You add `SUPABASE_SECRET_KEY` to `.env.local`.
+- [x] I run the import and check the numbers in the database.
+- [x] I check the 44 institutions marked as universities. All are correct: the list includes the new Adelaide University (the University of Adelaide and the University of South Australia merged), and Victoria University and Southern Queensland are each registered twice, once for campuses in other states.
 - [ ] You get one admin account for yourself, so you can open the staff pages while we build (one SQL line, already in the README). This is only for testing. Proper staff accounts come in step 8.
 
 **Done when:** the database holds the same numbers as the dry run, and you can sign in to the staff pages.
