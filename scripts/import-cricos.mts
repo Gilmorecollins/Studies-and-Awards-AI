@@ -9,7 +9,7 @@
 // machine. Safe to re-run: rows are matched on CRICOS codes and updated in
 // place, and courses that leave the register are marked inactive, not deleted.
 
-import { createClient } from "@supabase/supabase-js";
+import { BATCH_SIZE, connect, selectAll, upsert } from "./lib/supabase.mts";
 
 type Row = Record<string, string>;
 
@@ -22,8 +22,6 @@ const FILES = {
   courses: "48cacf69-2082-415e-9595-f17d0c3a4af0/download/cricos-courses.csv",
   courseLocations: "4cd2de02-8ba3-4eb2-bac2-fe272cae3f5f/download/cricos-course-locations.csv",
 };
-const BATCH_SIZE = 1000;
-
 const AU_STATES = new Set(["ACT", "NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"]);
 
 const COURSE_LEVELS: Record<string, string> = {
@@ -217,61 +215,6 @@ function campusKey(providerCode: string, name: string, city: string): string {
 }
 
 // ---------------------------------------------------------------------------
-// Supabase helpers
-// ---------------------------------------------------------------------------
-
-function connect() {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const secretKey = process.env.SUPABASE_SECRET_KEY;
-  if (!url || !secretKey) {
-    throw new Error(
-      "NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SECRET_KEY must be set in .env.local (or use --dry-run).",
-    );
-  }
-  return createClient(url, secretKey, {
-    auth: { persistSession: false, autoRefreshToken: false },
-  });
-}
-
-type Client = ReturnType<typeof connect>;
-
-async function upsert<T>(
-  supabase: Client,
-  table: string,
-  rows: object[],
-  onConflict: string,
-  columns: string,
-): Promise<T[]> {
-  const saved: T[] = [];
-  for (let i = 0; i < rows.length; i += BATCH_SIZE) {
-    const { data, error } = await supabase
-      .from(table)
-      .upsert(rows.slice(i, i + BATCH_SIZE), { onConflict })
-      .select(columns);
-    if (error) throw new Error(`Saving ${table} failed: ${error.message}`);
-    saved.push(...(data as T[]));
-  }
-  return saved;
-}
-
-async function selectAll<T>(
-  supabase: Client,
-  table: string,
-  columns: string,
-  orderBy: string[],
-): Promise<T[]> {
-  const rows: T[] = [];
-  for (let from = 0; ; from += BATCH_SIZE) {
-    let query = supabase.from(table).select(columns);
-    for (const column of orderBy) query = query.order(column);
-    const { data, error } = await query.range(from, from + BATCH_SIZE - 1);
-    if (error) throw new Error(`Reading ${table} failed: ${error.message}`);
-    rows.push(...(data as T[]));
-    if (data.length < BATCH_SIZE) return rows;
-  }
-}
-
-// ---------------------------------------------------------------------------
 // Import
 // ---------------------------------------------------------------------------
 
@@ -400,7 +343,7 @@ if (dryRun) {
   process.exit(0);
 }
 
-const supabase = connect();
+const supabase = connect("or use --dry-run");
 
 await upsert(
   supabase,

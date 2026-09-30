@@ -1,0 +1,1467 @@
+{
+  "_about": "Which CRICOS provider(s) each name on the Studies and Awards partner list means. status: linked (saved to the database), review (not decided) or not_on_cricos (no registered provider). Written by npm run link:partners -- --suggest, then reviewed by hand.",
+  "partners": [
+    {
+      "name": "Abbey College Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02658G",
+          "name": "Logic Entity Australia Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Logic Entity Australia Pty Ltd."
+    },
+    {
+      "name": "Acknowledge Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00197D",
+          "name": "Acknowledge Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "AHHI",
+      "status": "review",
+      "providers": [],
+      "note": "No provider on CRICOS matches this name. What is its full name?",
+      "suggestions": []
+    },
+    {
+      "name": "AIBI Higher Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03844J",
+          "name": "Australian Institute of Business Intelligence Pty Ltd"
+        }
+      ],
+      "note": "Same provider as \"Australian Institute of Business Intelligence (AIBI)\"; AIBI Higher Education is its trading name."
+    },
+    {
+      "name": "Alphacrucis University College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00958A",
+          "name": "Alphacrucis University College Limited"
+        }
+      ]
+    },
+    {
+      "name": "ALTEC College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02926D",
+          "name": "Pass Global Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Pass Global Pty Ltd."
+    },
+    {
+      "name": "Analytics Institute of Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04059D",
+          "name": "Analytics Institute of Australia Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "APEIRO Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03703M",
+          "name": "Apeiro Institute Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Apsley College",
+      "status": "review",
+      "providers": [],
+      "note": "No provider on CRICOS matches this name. Is it a trading name of another college?",
+      "suggestions": []
+    },
+    {
+      "name": "Astral Skills Institute of Australia (ASIA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03858C",
+          "name": "THE EARLY CHILDHOOD LEARNING COMPANY PTY. LTD."
+        }
+      ],
+      "note": "Trading name of The Early Childhood Learning Company Pty Ltd."
+    },
+    {
+      "name": "Astute Training",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02975F",
+          "name": "Astute Training Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Auscanus Institute of Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04062J",
+          "name": "Auscanus Institute of Australia Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Australia Institute of Business and Technology - International",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03610E",
+          "name": "Australia Institute of Business & Technology - International Pty Ltd"
+        }
+      ],
+      "note": "A separate provider from \"Australia Institute of Business and Technology (AIBT)\" (03430J)."
+    },
+    {
+      "name": "Australia Institute of Business and Technology (AIBT)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03430J",
+          "name": "Brighton Pacific Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Brighton Pacific Pty Ltd. A separate provider from \"AIBT - International\" (03610E)."
+    },
+    {
+      "name": "Australian Catholic University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00004G",
+          "name": "Australian Catholic University Limited"
+        }
+      ]
+    },
+    {
+      "name": "Australian College of Applied Professions (ACAP)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "01328A",
+          "name": "ACAP University College"
+        }
+      ],
+      "note": "Now ACAP University College."
+    },
+    {
+      "name": "Australian College of Management and Innovation",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03800K",
+          "name": "Australian College of Management and Innovation Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Australian Data & Cyber Institute (ADCI)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04102F",
+          "name": "Australian Data and Cyber Institute"
+        }
+      ]
+    },
+    {
+      "name": "Australian Harbour International College (AHIC)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03449J",
+          "name": "Australian Harvard International College Pty Ltd"
+        }
+      ],
+      "note": "Registered as Australian Harvard International College Pty Ltd; Australian Harbour International College is its trading name."
+    },
+    {
+      "name": "Australian Health and Management Institute (AHMI)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03595K",
+          "name": "AUSTRALIAN HEALTH AND MANAGEMENT INSTITUTE PTY LTD"
+        }
+      ]
+    },
+    {
+      "name": "Australian Institute of Business Intelligence (AIBI)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03844J",
+          "name": "Australian Institute of Business Intelligence Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Australian Institute of Higher Education (AIH)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03147A",
+          "name": "Australian Institute of Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Australian National University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00120C",
+          "name": "Australian National University"
+        }
+      ]
+    },
+    {
+      "name": "Australian Technical College (ATC)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03437B",
+          "name": "Perth Technical College Pty Ltd"
+        }
+      ],
+      "note": "Perth Technical College Pty Ltd, trading as Australian Technical College Western Australia. Campuses in NSW and WA, matching Sydney and Perth."
+    },
+    {
+      "name": "Australian Tertiary Institute (ATI)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03691K",
+          "name": "Australian Tertiary Institute Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Australian Vocational Training Academy (AVTA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04034B",
+          "name": "Australian Vocational Training Academy Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Barton Business School",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04345J",
+          "name": "BBS Higher Education Pty Ltd"
+        }
+      ],
+      "note": "Trading name of BBS Higher Education Pty Ltd."
+    },
+    {
+      "name": "Bond University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00017B",
+          "name": "Bond University"
+        }
+      ]
+    },
+    {
+      "name": "Box Hill Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02411J",
+          "name": "Box Hill Institute"
+        }
+      ]
+    },
+    {
+      "name": "Brighton College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03635G",
+          "name": "Brighton College Pty Ltd"
+        }
+      ],
+      "note": "CRICOS lists campuses in QLD, TAS and VIC, none in Sydney."
+    },
+    {
+      "name": "Brooklyn International College (BIC)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04001M",
+          "name": "Brooklyn International College Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Canberra Institute of Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00001K",
+          "name": "Canberra Institute of Technology"
+        }
+      ]
+    },
+    {
+      "name": "Canterbury Institute of Management",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03809A",
+          "name": "Australian Campus Management Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Australian Campus Management Pty Ltd."
+    },
+    {
+      "name": "Care Education Australia",
+      "status": "review",
+      "providers": [],
+      "note": "No provider on CRICOS matches this name, and the list gives no courses.",
+      "suggestions": [
+        {
+          "code": "02925E",
+          "name": "Education Training & Employment Australia Pty. Ltd.",
+          "trading_names": "Education Training & Employment Australia",
+          "states": [
+            "NSW",
+            "SA",
+            "VIC",
+            "WA"
+          ],
+          "score": 3
+        },
+        {
+          "code": "03818M",
+          "name": "Education Investors Pty Ltd",
+          "trading_names": "Vocational Skills Australia",
+          "states": [
+            "SA",
+            "VIC"
+          ],
+          "score": 3
+        },
+        {
+          "code": "03039E",
+          "name": "Imperial Education Group Pty Ltd",
+          "trading_names": "Ironwood Career & Training; Ironwood Institute; Imperial College of Trades",
+          "states": [
+            "SA"
+          ],
+          "score": 3
+        }
+      ]
+    },
+    {
+      "name": "Central Queensland University (CQU)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00219C",
+          "name": "Central Queensland University"
+        }
+      ]
+    },
+    {
+      "name": "Charles Darwin University (CDU)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00300K",
+          "name": "Charles Darwin University (CDU)"
+        }
+      ]
+    },
+    {
+      "name": "Charles Sturt",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00005F",
+          "name": "Charles Sturt University (CSU)"
+        }
+      ],
+      "note": "Same university as \"Charles Sturt University(CSU)\"."
+    },
+    {
+      "name": "Charles Sturt University(CSU)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00005F",
+          "name": "Charles Sturt University (CSU)"
+        }
+      ]
+    },
+    {
+      "name": "Chisholm",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00881F",
+          "name": "Chisholm Institute"
+        }
+      ],
+      "note": "Same as \"Chisholm Institute\"."
+    },
+    {
+      "name": "Chisholm Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00881F",
+          "name": "Chisholm Institute"
+        }
+      ]
+    },
+    {
+      "name": "Danford College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02996A",
+          "name": "Star Gazers Education Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Star Gazers Education Pty Ltd. A separate provider from Danford Higher Education (04122B)."
+    },
+    {
+      "name": "Danford Higher Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04122B",
+          "name": "Danford Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "DNA Kingston Training",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02899B",
+          "name": "Kingston Training and Employment Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Kingston Training and Employment Pty Ltd."
+    },
+    {
+      "name": "ECA",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02644C",
+          "name": "Education Centre of Australia Pty Ltd"
+        }
+      ],
+      "note": "Education Centre of Australia (ECA College): campuses in exactly the four listed cities. The ECA group also runs ECA Higher Education Institute (03932J, health sciences), which is not linked: see the open question."
+    },
+    {
+      "name": "Edvantage Institute Australia (EIA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03879J",
+          "name": "Edvantage Institute Australia Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Engineering Institute of Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03567C",
+          "name": "Engineering Institute of Technology Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Engineering Institute of Technology (EIT)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03567C",
+          "name": "Engineering Institute of Technology Pty Ltd"
+        }
+      ],
+      "note": "Same as \"Engineering Institute of Technology\"."
+    },
+    {
+      "name": "Fusion College of Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04189E",
+          "name": "Fusion College of Technology Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Greenwich Higher Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02672K",
+          "name": "Greenwich College Pty Ltd"
+        }
+      ],
+      "note": "Greenwich College Pty Ltd (Greenwich English College, Greenwich Management College) is the only Greenwich provider on CRICOS. Its courses are vocational and English, not higher education: worth a check."
+    },
+    {
+      "name": "Griffith University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00233E",
+          "name": "Griffith University"
+        }
+      ]
+    },
+    {
+      "name": "Group Colleges Australia (GCA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02571D",
+          "name": "Group Colleges Australia Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Holmes Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02639M",
+          "name": "Holmes Institute Pty Ltd"
+        },
+        {
+          "code": "02727M",
+          "name": "Holmes Institute Pty Ltd"
+        },
+        {
+          "code": "02767C",
+          "name": "Holmes Institute Pty Ltd"
+        }
+      ],
+      "note": "Registered three times: Victoria (02639M), Queensland (02727M) and NSW (02767C), matching Melbourne, Brisbane and Sydney."
+    },
+    {
+      "name": "IHM Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03407G",
+          "name": "Institute of Health & Management Pty Ltd"
+        }
+      ],
+      "note": "Institute of Health & Management Pty Ltd (IHM). Teaches nursing and social work, as the list says."
+    },
+    {
+      "name": "Ikon Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03581E",
+          "name": "Proteus Technologies Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Proteus Technologies Pty Ltd."
+    },
+    {
+      "name": "Institute of Science Management & Technology (ISMT)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03764J",
+          "name": "Lambda Education Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Lambda Education Pty Ltd."
+    },
+    {
+      "name": "International College of Australia (Western Sydney College)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03690M",
+          "name": "International College of Australia Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "International Graduate Institute (IGI)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04116M",
+          "name": "PBL Education Pty Ltd"
+        }
+      ],
+      "note": "Trading name of PBL Education Pty Ltd."
+    },
+    {
+      "name": "James Cook (Brisbane)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00117J",
+          "name": "James Cook University"
+        }
+      ],
+      "note": "Same as \"James Cook University\"."
+    },
+    {
+      "name": "James Cook University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00117J",
+          "name": "James Cook University"
+        }
+      ]
+    },
+    {
+      "name": "Kaplan Business School",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02426B",
+          "name": "Kaplan Business School Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Keystone College of Business and Technology (KCBT)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03425F",
+          "name": "Dynamic Education Group Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Dynamic Education Group Pty Ltd."
+    },
+    {
+      "name": "King's Own Institute (KOI)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03171A",
+          "name": "Australian Institute of Business and Management Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Australian Institute of Business and Management Pty Ltd."
+    },
+    {
+      "name": "Kingston International College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02543G",
+          "name": "Kingston International College Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Le Pont International College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03992H",
+          "name": "Le Pont International College Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Lead College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03636F",
+          "name": "Lead College Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Leaders Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03732F",
+          "name": "Leaders Institute Pty Ltd"
+        }
+      ],
+      "note": "Leaders Institute Pty Ltd (NSW, QLD), not Leaders Institute of Training and Education (03503G, Victoria only)."
+    },
+    {
+      "name": "Melbourne Institute of Higher Education (MIHE)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04018B",
+          "name": "Melbourne Institute of Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Melbourne Polytech",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00724G",
+          "name": "Melbourne Polytechnic"
+        }
+      ],
+      "note": "Same as \"Melbourne Polytechnic\"."
+    },
+    {
+      "name": "Melbourne Polytechnic",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00724G",
+          "name": "Melbourne Polytechnic"
+        }
+      ]
+    },
+    {
+      "name": "Milner International College of English",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00061J",
+          "name": "Milner International College of English (WA) Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "MINT International College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03700C",
+          "name": "Mint Training Pty Ltd"
+        }
+      ],
+      "note": "Mint Training Pty Ltd: campuses in SA and VIC, and the same courses (carpentry, cookery, hospitality, English)."
+    },
+    {
+      "name": "Murdoch College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03127E",
+          "name": "Kaplan Higher Education Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Kaplan Higher Education Pty Ltd (Murdoch University's pathway college), not Murdoch University itself."
+    },
+    {
+      "name": "NAPS",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04009C",
+          "name": "National Academy of Professional Studies Pty Ltd"
+        }
+      ],
+      "note": "Same as \"National Academy of Professional Studies (NAPS)\"."
+    },
+    {
+      "name": "National Academy of Professional Studies (NAPS)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04009C",
+          "name": "National Academy of Professional Studies Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "National Diversity Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04368B",
+          "name": "National Diversity Institute of Australia Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "National Polytechnic of Australia (NPA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04096K",
+          "name": "NATIONAL POLYTECHNIC OF AUSTRALIA PTY LTD"
+        }
+      ]
+    },
+    {
+      "name": "New Era Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03509B",
+          "name": "NEW ERA INSTITUTE PTY LTD"
+        }
+      ]
+    },
+    {
+      "name": "Nova Higher Education’s",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04401F",
+          "name": "Nova Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Opera City English College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03900F",
+          "name": "OPERA EDUCATION GROUP PTY LTD"
+        }
+      ],
+      "note": "Opera Education Group Pty Ltd: an English college in NSW with the same courses (General English, EAP, IELTS)."
+    },
+    {
+      "name": "Oxford International Education Group",
+      "status": "review",
+      "providers": [],
+      "note": "No provider on CRICOS matches. The closest is Oxford International College Pty Ltd (04373E, Sydney only), but the list gives Melbourne, Perth and Sydney.",
+      "suggestions": [
+        {
+          "code": "03649A",
+          "name": "Victorian Education and Training Group Pty Ltd",
+          "trading_names": "International College of Victoria",
+          "states": [
+            "VIC"
+          ],
+          "score": 4
+        },
+        {
+          "code": "03805E",
+          "name": "International Education Group of Australia Pty Ltd",
+          "trading_names": "College of NSW",
+          "states": [
+            "NSW"
+          ],
+          "score": 4
+        },
+        {
+          "code": "04047H",
+          "name": "Genesis Education Group Pty Ltd",
+          "trading_names": "GENESIS INTERNATIONAL COLLEGE",
+          "states": [
+            "VIC"
+          ],
+          "score": 4
+        }
+      ]
+    },
+    {
+      "name": "Ozford Institute of Higher Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03429B",
+          "name": "Ozford Institute of Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "PIA",
+      "status": "review",
+      "providers": [],
+      "note": "No provider on CRICOS matches this name, and the list gives no courses. What is its full name?",
+      "suggestions": []
+    },
+    {
+      "name": "Pivot Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04369A",
+          "name": "Pivot Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Reach Community College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03904B",
+          "name": "Reach Community College Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Rhodes International College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03810G",
+          "name": "CAREER READY PTY LTD"
+        }
+      ],
+      "note": "Trading name of Career Ready Pty Ltd."
+    },
+    {
+      "name": "RMIT Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00122A",
+          "name": "Royal Melbourne Institute of Technology"
+        }
+      ],
+      "note": "RMIT University. The list gives bachelor's degrees only, so RMIT Training (RMIT University Pathways, 01912G) is not linked."
+    },
+    {
+      "name": "Rosehill College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03622A",
+          "name": "AISL PTY LTD"
+        }
+      ],
+      "note": "Trading name of AISL Pty Ltd."
+    },
+    {
+      "name": "Salford College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03076M",
+          "name": "SALFORD COLLEGE PTY LTD"
+        }
+      ]
+    },
+    {
+      "name": "Skills Institute Australia (SIA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03328G",
+          "name": "Skilled Services Australia Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Skilled Services Australia Pty Ltd."
+    },
+    {
+      "name": "Southern Academy of Business and Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03602E",
+          "name": "Australian Training School Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Australian Training School Pty Ltd."
+    },
+    {
+      "name": "Southern Academy of Higher Education (SAHE)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04202B",
+          "name": "Southern Academy of Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Southern Cross Institute",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "04078A",
+          "name": "Southern Cross Institute (SCI)"
+        }
+      ]
+    },
+    {
+      "name": "Southern Cross University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "01241G",
+          "name": "Southern Cross University (SCU)"
+        }
+      ]
+    },
+    {
+      "name": "Stanley College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03047E",
+          "name": "Stanley International College Pty Ltd"
+        }
+      ],
+      "note": "Stanley International College Pty Ltd."
+    },
+    {
+      "name": "Sunbeam International College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03951F",
+          "name": "Sunbeam International College Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Superior Training College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03591C",
+          "name": "SUPERIOR TRAINING CENTRE PTY LTD"
+        }
+      ],
+      "note": "Superior Training Centre Pty Ltd, the only close name in NSW. The list gives no courses to compare: worth a check."
+    },
+    {
+      "name": "Swinburne University of Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00111D",
+          "name": "Swinburne University of Technology"
+        }
+      ]
+    },
+    {
+      "name": "Sydney Institute of Higher Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03866C",
+          "name": "Sydney Institute of Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Sydney Metropolitan Institute of Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03906M",
+          "name": "Sydney Metropolitan Institute of Technology Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "Sydney School of Business and Technology (SSBT)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02140E",
+          "name": "Sydney School of Business and Technology Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "SydneyMet",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03906M",
+          "name": "Sydney Metropolitan Institute of Technology Pty Ltd"
+        }
+      ],
+      "note": "Same as \"Sydney Metropolitan Institute of Technology\" (trading name Sydney Met)."
+    },
+    {
+      "name": "TAFE NSW",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00591E",
+          "name": "Technical and Further Education Commission"
+        }
+      ]
+    },
+    {
+      "name": "TAFE QLD",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03020E",
+          "name": "TAFE Queensland"
+        }
+      ]
+    },
+    {
+      "name": "TAFE South Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00092B",
+          "name": "TAFE SA"
+        }
+      ]
+    },
+    {
+      "name": "TAFE West Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00020G",
+          "name": "Department of Training and Workforce Development"
+        }
+      ],
+      "note": "Registered as the Department of Training and Workforce Development, trading as TAFE International Western Australia."
+    },
+    {
+      "name": "Tas TAFE",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03041M",
+          "name": "TasTAFE"
+        }
+      ],
+      "note": "TasTAFE."
+    },
+    {
+      "name": "Taylors College Sydney",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "01682E",
+          "name": "Navitas Australia"
+        }
+      ],
+      "note": "Taylors College Sydney is a trading name of Navitas Australia."
+    },
+    {
+      "name": "The Gordon",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00011G",
+          "name": "Gordon Institute of TAFE"
+        }
+      ],
+      "note": "Gordon Institute of TAFE."
+    },
+    {
+      "name": "The Hotel School (SCU)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "01241G",
+          "name": "Southern Cross University (SCU)"
+        }
+      ],
+      "note": "The Hotel School's courses are Southern Cross University courses (Diploma of Hotel Management, Bachelor of Business in Hotel Management and others)."
+    },
+    {
+      "name": "The Institute of International Studies (TIIS)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03705J",
+          "name": "The Institute of International Studies (TIIS) Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "The One International College",
+      "status": "review",
+      "providers": [],
+      "note": "No provider on CRICOS matches this name. Is it a trading name of another college?",
+      "suggestions": [
+        {
+          "code": "04367C",
+          "name": "Educare International College Pty Ltd",
+          "trading_names": "Educare International College",
+          "states": [
+            "NSW",
+            "QLD"
+          ],
+          "score": 3
+        },
+        {
+          "code": "02534J",
+          "name": "USQ International College Pty Ltd",
+          "trading_names": "Canterbury Language Academy",
+          "states": [
+            "NSW"
+          ],
+          "score": 3
+        },
+        {
+          "code": "03610E",
+          "name": "Australia Institute of Business & Technology - International Pty Ltd",
+          "trading_names": null,
+          "states": [
+            "NSW",
+            "QLD"
+          ],
+          "score": 3
+        }
+      ]
+    },
+    {
+      "name": "The University of Adelaide College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03127E",
+          "name": "Kaplan Higher Education Pty Ltd"
+        }
+      ],
+      "note": "Trading name of Kaplan Higher Education Pty Ltd (a pathway college), not Adelaide University itself."
+    },
+    {
+      "name": "The University of Sydney",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00026A",
+          "name": "The University of Sydney"
+        }
+      ]
+    },
+    {
+      "name": "Torrens University Australia",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03389E",
+          "name": "Torrens University Australia Limited"
+        }
+      ]
+    },
+    {
+      "name": "Training for Knowledge and Livelihood",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03770M",
+          "name": "TKL College Pty Ltd"
+        }
+      ],
+      "note": "Trading name of TKL College Pty Ltd."
+    },
+    {
+      "name": "Universal Higher Education",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03848E",
+          "name": "Universal Higher Education Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "University of Canberra",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00212K",
+          "name": "University of Canberra"
+        }
+      ]
+    },
+    {
+      "name": "University of Newcastle International College",
+      "status": "review",
+      "providers": [],
+      "note": "Not on CRICOS under this name. The University of Newcastle (00109J) teaches only postgraduate courses in Sydney, but the list gives bachelor's degrees, so this may be a pathway college run by another provider.",
+      "suggestions": [
+        {
+          "code": "00109J",
+          "name": "The University of Newcastle (UoN)",
+          "trading_names": "The University of Newcastle (UoN), The University of Newcastle Language Centre, Sydney",
+          "states": [
+            "NSW"
+          ],
+          "score": 3.7
+        },
+        {
+          "code": "03389E",
+          "name": "Torrens University Australia Limited",
+          "trading_names": "Torrens University Australia; Torrens University Language Centre; Chifley Business School at Torrens University Australia CBS at Torrens University Australia Blue Mountains International Hotel Management School at Torrens University Australia BMIHMS at To",
+          "states": [
+            "NSW",
+            "QLD",
+            "SA",
+            "VIC"
+          ],
+          "score": 3.7
+        },
+        {
+          "code": "03663C",
+          "name": "Western Sydney University International College Pty Ltd",
+          "trading_names": "Western Sydney University International College Pty Ltd",
+          "states": [
+            "NSW"
+          ],
+          "score": 3.6
+        }
+      ]
+    },
+    {
+      "name": "University of Notre Dam",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "01032F",
+          "name": "The University of Notre Dame Australia"
+        }
+      ],
+      "note": "The University of Notre Dame Australia (the list has a typo)."
+    },
+    {
+      "name": "University of Tasmania",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00586B",
+          "name": "University of Tasmania (UTas)"
+        }
+      ]
+    },
+    {
+      "name": "University of Technology Sydney",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00099F",
+          "name": "University of Technology Sydney (UTS)"
+        }
+      ]
+    },
+    {
+      "name": "University of Technology Sydney College",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00859D",
+          "name": "UTS College Limited"
+        }
+      ],
+      "note": "UTS College Limited, the UTS pathway college."
+    },
+    {
+      "name": "University of the Sunshine Coast",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "01595D",
+          "name": "University of the Sunshine Coast"
+        }
+      ]
+    },
+    {
+      "name": "University of Wollongong",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00102E",
+          "name": "University of Wollongong (UoW)"
+        }
+      ]
+    },
+    {
+      "name": "University of Wollongong, Australia (UWA)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00102E",
+          "name": "University of Wollongong (UoW)"
+        }
+      ],
+      "note": "University of Wollongong. \"UWA\" in the list is a mistake: UWA is the University of Western Australia."
+    },
+    {
+      "name": "VIC Government School (Victoria)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "00861K",
+          "name": "Department of Education"
+        }
+      ],
+      "note": "Victorian Department of Education (government schools)."
+    },
+    {
+      "name": "Victoria Institute of Technology",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02044E",
+          "name": "Victorian Institute of Technology Pty Ltd"
+        }
+      ],
+      "note": "Same as \"Victorian Institute of Technology (VIT)\": campuses in the same three cities."
+    },
+    {
+      "name": "Victoria University",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02475D",
+          "name": "Victoria University"
+        }
+      ],
+      "note": "Victoria University's second registration, for its Sydney and Brisbane campuses. The main Melbourne registration (00124K) is not linked because the list only gives Sydney and Brisbane."
+    },
+    {
+      "name": "Victorian Institute of Technology (VIT)",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "02044E",
+          "name": "Victorian Institute of Technology Pty Ltd"
+        }
+      ]
+    },
+    {
+      "name": "West Australian Institute of Further Studies",
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03188C",
+          "name": "West Australian Institute of Further Studies Pty Ltd"
+        }
+      ]
+    }
+  ]
+}

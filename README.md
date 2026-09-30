@@ -45,6 +45,7 @@ The schema lives in `supabase/migrations/`. Apply the files in filename order, e
 | `…_students_and_assessments.sql` | `students`, `student_subject_grades`, `assessments`, `assessment_courses`, `outcomes` |
 | `…_row_level_security.sql` | Row level security: only active staff can read or change data, only admins can delete; the KCSE scale is public |
 | `…_cricos_import.sql` | What the CRICOS import needs: `fields_of_education` (public), extra institution, campus and course columns, and courses keyed on their CRICOS code |
+| `…_partner_institutions.sql` | `partner_institutions`: which CRICOS providers are Studies and Awards partners. Staff can read it; only the link script changes it |
 
 The filename timestamps match the versions recorded in the Supabase project, so `supabase db push` only applies files the project has not seen.
 
@@ -71,6 +72,24 @@ Run it again whenever CRICOS updates (roughly monthly). It matches rows on CRICO
 - **Fees** are for the whole course (`total_tuition_aud`, `estimated_total_cost_aud`). `annual_tuition_aud` stays empty until it is taken from the institution's own site.
 - **Fields of study** use the ASCED codes CRICOS gives (broad, narrow and detailed). Each course stores all of its codes, so searching "Health" (06) also finds nursing courses (0603).
 - **Regional campuses** (`is_regional`) are left empty. They will be classified together with the visa rules.
+
+## Link the partner list
+
+The Studies and Awards partner list lives in the website project (`tools/data/partner-institutions.json` in Studies-and-Awards-Limited). Its names are the ones staff use, often nicknames or trading names, so each one is linked by hand to the CRICOS provider(s) it means. The decisions are kept in [data/partner-links.json](data/partner-links.json), and the git history of that file is the review record.
+
+```bash
+npm run link:partners -- --suggest   # add new partner names to the links file, with the closest CRICOS providers
+npm run link:partners -- --dry-run   # check the links file; saves nothing
+npm run link:partners                # save the links to partner_institutions and set institutions.is_partner
+```
+
+Each entry in the links file has a `status`:
+
+- `linked`: saved. `providers` lists the CRICOS codes; one name can cover several (Holmes Institute has three), and several names can share one ("NAPS" and "National Academy of Professional Studies (NAPS)").
+- `review`: not decided yet, not saved. `note` says what is unclear.
+- `not_on_cricos`: the partner has no registered provider, not saved.
+
+When the partner list changes, run `--suggest`, decide the new names (edit `status`, `providers` and `note`, and remove `suggestions`), then save. The script only reads the Australian partners, and it expects the website project next to this one; set `PARTNER_LIST_PATH` to use another copy. Partner course names are kept as text (`listed_courses`), not linked to CRICOS courses.
 
 ## Staff sign-in
 
@@ -106,5 +125,10 @@ src/
   proxy.ts                   Refreshes the session and guards /staff
 scripts/
   import-cricos.mts          CRICOS import (npm run import:cricos)
+  link-partners.mts          Partner list links (npm run link:partners)
+  lib/supabase.mts           Supabase helpers the scripts share
+data/
+  partner-links.json         Reviewed links from partner names to CRICOS providers
+docs/plan.md                 Development plan, step by step
 supabase/migrations/         Database schema (SQL)
 ```

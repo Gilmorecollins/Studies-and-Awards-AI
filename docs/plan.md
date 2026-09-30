@@ -47,11 +47,11 @@ To finish:
 
 The partner list (in the website project, `tools/data/partner-institutions.json`) has 130 Australian names. Some are nicknames, some have typos, and some cover more than one registered provider (for example Holmes Institute has three).
 
-- [ ] A script suggests a CRICOS provider for each partner name and writes the suggestions to a file in this project, `data/partner-links.json`.
-- [ ] I go through every suggestion using the CRICOS names, trading names and campus cities. Clear matches are marked as linked. Unclear ones go on a short list of questions for you.
+- [x] A script suggests a CRICOS provider for each partner name and writes the suggestions to a file in this project, `data/partner-links.json`.
+- [x] I go through every suggestion using the CRICOS names, trading names and campus cities. Clear matches are marked as linked. Unclear ones go on a short list of questions for you. (123 linked, 7 questions.)
 - [ ] You answer the questions. Your git diff of the file is the review record.
-- [ ] The script saves the links to the database and marks those institutions as partners. Each partner keeps the cities and course names from the list.
-- [ ] I give you a list of typos and duplicate names to fix in the website's partner list.
+- [x] The script saves the links to the database and marks those institutions as partners. Each partner keeps the cities and course names from the list. (113 partner institutions so far; the answers to the questions will add the rest.)
+- [x] I give you a list of typos and duplicate names to fix in the website's partner list.
 
 We do not match the partner course names ("IT", "BSc Nursing") to CRICOS courses yet. They are too loose. They are kept as text for ranking in step 6.
 

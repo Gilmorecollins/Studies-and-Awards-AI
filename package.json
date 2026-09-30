@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import:cricos": "node --env-file=.env.local scripts/import-cricos.mts"
+    "import:cricos": "node --env-file=.env.local scripts/import-cricos.mts",
+    "link:partners": "node --env-file=.env.local scripts/link-partners.mts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",
