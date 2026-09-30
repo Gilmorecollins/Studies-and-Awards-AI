@@ -2,7 +2,7 @@
 
 An online consultant, delivered as a website, that helps students check whether they are eligible to study in Australia. Students and staff use it in a normal web browser on phone or computer; there is nothing to download or install. It is built with Next.js (a framework for building websites; TypeScript, Tailwind) with Supabase for the database and staff sign-in.
 
-**Status: step 3.** The website skeleton, staff email sign-in, the database schema and the CRICOS catalogue (every Australian provider, campus and course, imported into the database) are in place. Linking the partner list, the requirement extractor and the student checker come next. The steps are set out in [docs/plan.md](docs/plan.md).
+**Status: step 4.** The website skeleton, staff email sign-in, the database schema, the CRICOS catalogue (every Australian provider, campus and course, imported into the database) and the partner links (117 partner institutions) are in place. The requirement extractor and the student checker come next. The steps are set out in [docs/plan.md](docs/plan.md).
 
 ## Requirements
 

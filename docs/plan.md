@@ -43,13 +43,13 @@ To finish:
 
 **Done when:** the database holds the same numbers as the dry run, and you can sign in to the staff pages.
 
-### Step 3: Link our partner list to CRICOS
+### Step 3: Link our partner list to CRICOS (done)
 
 The partner list (in the website project, `tools/data/partner-institutions.json`) has 130 Australian names. Some are nicknames, some have typos, and some cover more than one registered provider (for example Holmes Institute has three).
 
 - [x] A script suggests a CRICOS provider for each partner name and writes the suggestions to a file in this project, `data/partner-links.json`.
 - [x] I go through every suggestion using the CRICOS names, trading names and campus cities. Clear matches are marked as linked. Unclear ones go on a short list of questions for you. (127 linked, 1 not on CRICOS, 2 still open: Oxford International Education Group and The One International College.)
-- [ ] You answer the questions. Your git diff of the file is the review record.
+- [x] You answer the questions. Your git diff of the file is the review record. (Oxford International Education Group and The One International College have no website we could find. You chose to leave them for now: they stay marked `review` in the links file and are not counted as partners.)
 - [x] The script saves the links to the database and marks those institutions as partners. Each partner keeps the cities and course names from the list. (117 partner institutions.)
 - [x] I give you a list of typos and duplicate names to fix in the website's partner list.
 
@@ -61,18 +61,19 @@ We do not match the partner course names ("IT", "BSc Nursing") to CRICOS courses
 
 We need each course's real entry requirements, in a form the code can check.
 
-**4a. The requirement format.** We agree what a requirement looks like as data before building anything:
+**4a. The requirement format.** We agree what a requirement looks like as data before building anything. The agreed format is in [requirement-format.md](requirement-format.md). It covers:
 
 - KCSE mean grade, and minimum grades in named subjects.
 - English test and scores (overall and per band), plus the ways to be let off the test.
-- Prior qualifications: some institutions accept KCSE directly for a bachelor's degree, while many ask for a foundation year or diploma first. The format must record these routes, because they decide most Kenyan results.
+- Routes: the different ways into a course, for example KCSE directly, or a diploma plus work experience.
+- Everything in KCSE terms. Australian scales such as ATAR are never shown.
 - Work experience, portfolio or interview, and minimum age.
 
 **4b. The extractor.** For each partner institution, the AI reads its international admissions pages (country pages for Kenya where they exist) and fills in the format. It records the link and the exact words that support each requirement. Everything it finds is saved as unchecked.
 
 **4c. The review screen.** A staff page that shows each extracted requirement next to its source words and link. Staff can approve it, correct it or reject it.
 
-- [ ] Agree the requirement format.
+- [x] Agree the requirement format. (Agreed 30 September 2026.)
 - [ ] Build the extractor and try it on 3 partners.
 - [ ] Build the review screen.
 - [ ] Run it on all partners; staff review the results.
@@ -125,14 +126,14 @@ We need each course's real entry requirements, in a form the code can check.
 | 5 | A counsellor to try the intake form |
 | 7 | Anonymised past cases |
 
-## Decisions to make
+## Decisions
 
-Each has my recommendation. We settle each one before the step that needs it.
+All four were settled on 30 September 2026.
 
-1. **Which course levels come first?** (step 4) Recommendation: foundation, English language, diplomas and advanced diplomas, bachelor's degrees, and master's by coursework. These are what our students apply for. Schools, research degrees and short courses come later.
-2. **Which institutions get requirements first?** (step 4) Recommendation: partners only. Other institutions come after step 7.
-3. **Where can requirements come from?** (step 4) Recommendation: the institution's own website only, never agents' or third-party sites.
-4. **Who can approve a requirement?** (step 4) Recommendation: any active staff member, with their name and the date recorded. Admins can undo an approval.
+1. **Which course levels?** (step 4) Decided 30 September 2026: Studies and Awards only deals with diplomas, advanced diplomas, bachelor's degrees (honours included) and master's degrees. Requirements, matching and reports cover only these levels: 5,230 current courses at our 117 partners. The catalogue still holds every CRICOS course, so another level can be switched on later without a new import.
+2. **Which institutions get requirements first?** (step 4) Decided: partners only. Other institutions come after step 7.
+3. **Where can requirements come from?** (step 4) Decided: the institution's own website only, never agents' or third-party sites.
+4. **Who can approve a requirement?** (step 4) Decided: any active staff member, with their name and the date recorded. Admins can undo an approval.
 
 ## Risks
 
