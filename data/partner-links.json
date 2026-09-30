@@ -24,10 +24,14 @@
     },
     {
       "name": "AHHI",
-      "status": "review",
-      "providers": [],
-      "note": "No provider on CRICOS matches this name. What is its full name?",
-      "suggestions": []
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03954C",
+          "name": "Australian Health and Horticulture Institute Pty Ltd"
+        }
+      ],
+      "note": "Australian Health & Horticulture Institute. Its website (ahhi.edu.au) shows CRICOS 03954C, and its courses match the list."
     },
     {
       "name": "AIBI Higher Education",
@@ -83,10 +87,14 @@
     },
     {
       "name": "Apsley College",
-      "status": "review",
-      "providers": [],
-      "note": "No provider on CRICOS matches this name. Is it a trading name of another college?",
-      "suggestions": []
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03672B",
+          "name": "Australian Techno Management College Pty Ltd"
+        }
+      ],
+      "note": "Registered as Australian Techno Management College Pty Ltd. Its website (apsley.nsw.edu.au) shows CRICOS 03672B, and its courses match the list."
     },
     {
       "name": "Astral Skills Institute of Australia (ASIA)",
@@ -339,42 +347,9 @@
     },
     {
       "name": "Care Education Australia",
-      "status": "review",
+      "status": "not_on_cricos",
       "providers": [],
-      "note": "No provider on CRICOS matches this name, and the list gives no courses.",
-      "suggestions": [
-        {
-          "code": "02925E",
-          "name": "Education Training & Employment Australia Pty. Ltd.",
-          "trading_names": "Education Training & Employment Australia",
-          "states": [
-            "NSW",
-            "SA",
-            "VIC",
-            "WA"
-          ],
-          "score": 3
-        },
-        {
-          "code": "03818M",
-          "name": "Education Investors Pty Ltd",
-          "trading_names": "Vocational Skills Australia",
-          "states": [
-            "SA",
-            "VIC"
-          ],
-          "score": 3
-        },
-        {
-          "code": "03039E",
-          "name": "Imperial Education Group Pty Ltd",
-          "trading_names": "Ironwood Career & Training; Ironwood Institute; Imperial College of Trades",
-          "states": [
-            "SA"
-          ],
-          "score": 3
-        }
-      ]
+      "note": "Its website (care.edu.au) shows RTO 45787 and no CRICOS code, and says it trains eligible South Australian students. A provider must be on CRICOS to enrol student visa holders."
     },
     {
       "name": "Central Queensland University (CQU)",
@@ -479,7 +454,7 @@
           "name": "Education Centre of Australia Pty Ltd"
         }
       ],
-      "note": "Education Centre of Australia (ECA College): campuses in exactly the four listed cities. The ECA group also runs ECA Higher Education Institute (03932J, health sciences), which is not linked: see the open question."
+      "note": "Education Centre of Australia (ECA College): campuses in exactly the four listed cities, and the only CRICOS code on eca.edu.au. The same group's ECA Higher Education Institute (03932J, health sciences) is not linked."
     },
     {
       "name": "Edvantage Institute Australia (EIA)",
@@ -902,10 +877,14 @@
     },
     {
       "name": "PIA",
-      "status": "review",
-      "providers": [],
-      "note": "No provider on CRICOS matches this name, and the list gives no courses. What is its full name?",
-      "suggestions": []
+      "status": "linked",
+      "providers": [
+        {
+          "code": "03535M",
+          "name": "Polytechnic Institute Australia Pty Ltd"
+        }
+      ],
+      "note": "Polytechnic Institute Australia. Its website (pia.edu.au) shows CRICOS 03535M; campuses in Sydney and Melbourne."
     },
     {
       "name": "Pivot Education",
@@ -1301,41 +1280,14 @@
     },
     {
       "name": "University of Newcastle International College",
-      "status": "review",
-      "providers": [],
-      "note": "Not on CRICOS under this name. The University of Newcastle (00109J) teaches only postgraduate courses in Sydney, but the list gives bachelor's degrees, so this may be a pathway college run by another provider.",
-      "suggestions": [
+      "status": "linked",
+      "providers": [
         {
           "code": "00109J",
-          "name": "The University of Newcastle (UoN)",
-          "trading_names": "The University of Newcastle (UoN), The University of Newcastle Language Centre, Sydney",
-          "states": [
-            "NSW"
-          ],
-          "score": 3.7
-        },
-        {
-          "code": "03389E",
-          "name": "Torrens University Australia Limited",
-          "trading_names": "Torrens University Australia; Torrens University Language Centre; Chifley Business School at Torrens University Australia CBS at Torrens University Australia Blue Mountains International Hotel Management School at Torrens University Australia BMIHMS at To",
-          "states": [
-            "NSW",
-            "QLD",
-            "SA",
-            "VIC"
-          ],
-          "score": 3.7
-        },
-        {
-          "code": "03663C",
-          "name": "Western Sydney University International College Pty Ltd",
-          "trading_names": "Western Sydney University International College Pty Ltd",
-          "states": [
-            "NSW"
-          ],
-          "score": 3.6
+          "name": "The University of Newcastle (UoN)"
         }
-      ]
+      ],
+      "note": "The University of Newcastle College of International Education (internationalcollege.newcastle.edu.au) is the university's pathway college and uses the university's own CRICOS code, 00109J."
     },
     {
       "name": "University of Notre Dam",
